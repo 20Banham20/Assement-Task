@@ -1,4 +1,4 @@
-img{
+.about-us-img{
     width:60%;
     float: right;
     
@@ -29,4 +29,40 @@ img{
 .c a{
   text-decoration: none;
   color: #fff;
+}
+
+img{
+padding-top: 5px;
+width:60%;
+height:60%;
+margin-left:70px
+
+}
+
+div.Player {
+  border: 1px solid #ccc;
+}
+
+div.Player:hover {
+  border: 1px solid #777;
+}
+
+div.Player img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.gallery {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
 }
