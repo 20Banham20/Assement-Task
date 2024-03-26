@@ -28,6 +28,7 @@
     padding-top: 30px;
     text-align: right;
 }
+
 .c a{
   text-decoration: none;
   color: #fff;
@@ -64,8 +65,9 @@ div.desc {
 }
 
 .gallery {
-  padding: 0 6px;
+  padding: 0px 10px;
   float: left;
   width: 24.99999%;
+  
 }
 
