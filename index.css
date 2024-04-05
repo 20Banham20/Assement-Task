@@ -1,4 +1,5 @@
 
+/* This is my nav bar it colors and creates an boder */
 .a {
     background-color: rgb(0, 0, 0);
     overflow: hidden;
@@ -6,10 +7,12 @@
     border: 5px solid white;
     border-radius: 5px;
 }
+/* this alignes my texts */
 .b{
   float: left;
   width: 950px;
 }
+/* This colors my text and aligns it*/
 .b a{
 
     float:left;
@@ -17,7 +20,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
+/* aligns my img across my screen*/
   } 
   .column {
     float: left;
@@ -25,25 +28,7 @@
     padding: 10px;
     margin-bottom: 100px;
   }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-  }
-
-.c{
-    float: left;
-    width: 850px;
-    color: rgb(0, 102, 255);
-    padding-top: 30px;
-    text-align: right;
-}
-
-.c a{
-  text-decoration: none;
-  color: #fff;
-}
+  /* colours and aligns the text*/
 
 .paragraph{
   margin-top: 100px;
@@ -54,41 +39,34 @@
   font-family:'Courier New', Courier;
   color:#fff
 }
-
+ /* Colours and aligns the text */
 h2{
   font-family:'Courier New', Courier;
   text-align: center;
   color: #fff;
   text-decoration: underline;
 }
-
+/* makes the background black*/
 body{
   background-color: black;
 }
+/* aligns the img and the text */
 .header{
   margin: 0px 500px; 
 }
+/* aligns the img in gallery */
 img{
 padding-top: 5px;
 width:60%;
 height:60%;
 margin-left:70px
-
 }
-
-div.Player {
-  border: 1px solid #fff;
-}
-
-div.Player:hover {
-  border: 1px solid #777;
-}
-
+/* aligns the img in gallery */
 div.Player img {
   width: 100%;
   height: auto;
 }
-
+/* its colors and agligns the text in gallery */
 div.desc {
   padding: 15px;
   text-align: center;
@@ -98,7 +76,7 @@ div.desc {
 * {
   box-sizing: border-box;
 }
-
+ /* aligns the gallery and creates an boder around it*/
 .gallery {
   padding: 0px 11px;
   float: left;
